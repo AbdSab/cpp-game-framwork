@@ -1,0 +1,1 @@
+g++ -c src/*.cpp src/*/*.cpp -std=c++14 -g -Wall -m64 -I include -I include/lib -I C:/SDL2/include && g++ *.o -o bin/debug/main -L C:/SDL2/lib -lmingw32 -lSDL2main -lSDL2 -lSDL2_image && start bin/debug/main.exe
